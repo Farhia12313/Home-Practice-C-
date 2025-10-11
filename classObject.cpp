@@ -13,7 +13,7 @@ int main() {
 
   // Access attributes and set values
   myObj.myNum = 15;
-  myObj.myString = "Some text";
+  myObj.myString = "I am Sabiha Farhia Talukder";
 
   // Print values
   cout << myObj.myNum << "\n"; 
