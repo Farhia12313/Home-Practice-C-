@@ -1,4 +1,5 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
 
 class NegativeValueException {};
@@ -7,7 +8,7 @@ double calculateSquareRoot(double value) {
     if (value < 0) {
         throw NegativeValueException();
     }
-    return value * value;
+    return sqrt(value * value);
 }
 
 int main() {
